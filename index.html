@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paru’s Bike Care Center Tracker</title>
+<style>
+  :root{--ink:#1c2a4a;--muted:#4b5a78;--rule:#cfd9e6;--blue:#27428a;--bg:#fbfcfd}
+  @media (prefers-color-scheme:dark){:root{--ink:#e8edf8;--muted:#a9b6d2;--rule:#33415f;--blue:#8fb0ff;--bg:#121a2e}}
+  body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 "Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+  main{max-width:660px;margin:0 auto;padding:56px 22px 80px}
+  h1{font:700 34px/1.2 "Iowan Old Style",Palatino,Georgia,serif;margin:0 0 6px}
+  h2{font:700 22px/1.3 "Iowan Old Style",Palatino,Georgia,serif;margin:36px 0 8px}
+  p,li{margin:0 0 12px} ul{padding-left:22px} .lede{color:var(--muted);font-size:20px}
+  a{color:var(--blue)} footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--rule);color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Paru’s Bike Care Center Tracker</h1>
+  <p class="lede">A program that runs on the shop’s own computer to keep track of employee attendance, advance payments and monthly salary.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Records daily attendance and any advance paid to an employee.</li>
+    <li>Works out the pay due at the end of the month: salary, minus days off beyond the free days, minus advances.</li>
+    <li>Prints month-end summaries and payslips for each employee.</li>
+    <li>Lets the owner add other users and choose what each of them can see and do.</li>
+  </ul>
+
+  <h2>Google Drive backup</h2>
+  <p>If the owner chooses to connect Google Drive, the tracker uploads copies of its data files to a folder it creates in the owner’s own Drive, so the records are not lost if the computer fails. It can only see files it created itself. The data is not sent anywhere else.</p>
+  <p>Read the <a href="privacy.html">privacy policy</a> for details.</p>
+
+  <footer>Paru’s Bike Care Center · Contact: <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></footer>
+</main>
+</body>
+</html>
